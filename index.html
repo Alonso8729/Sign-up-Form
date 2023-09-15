@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+        </div>
+        <div class="right">
+            <div class="first">
+                <h3>
+                    Dreaming is a surreal escape from reality, where imagination reigns supreme. <br> It unveils our
+                    desires,
+                    fears, and creativity,<br> offering a glimpse into the mysterious world of our subconscious. <br>
+                    Sign up <em>now</em> to get started.
+                    <br><br>
+                    You <em>know</em> you want to.
+
+                </h3>
+            </div>
+            <form>
+                <h3 class="form-title">Let's do this!</h3>
+                <div class="input">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="John" required>
+                    <div id="firstnameError" class="error"></div>
+                </div>
+
+                <div class="input">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Smith" required>
+                </div>
+
+                <div class="input">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" placeholder="joe123@gmail.com" required>
+                </div>
+                <div class="input">
+                    <label for="phone-num">PHONE NUMBER</label>
+                    <input type="tel" name="phone" id="phone-num" minlength="10" maxlength="10"
+                        placeholder=" 050-5551234" required>
+                </div>
+
+                <div class="input">
+                    <label for="psw">PASSWORD</label>
+                    <input type="password" name="password" id="psw" required minlength="8" maxlength="16">
+
+                </div>
+
+                <div class="input">
+                    <label for="psw-confirm">CONFIRM PASSWORD</label>
+                    <input type="password" name="password-confirm" id="psw-confirm" required minlength="8"
+                        maxlength="16">
+                </div>
+                <div class="button">
+                    <button type="submit">Create Account</button>
+                </div>
+            </form>
+
+            <div class="third">
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
