@@ -1,2 +1,2 @@
 # Sign-up-Form
-![image](https://github.com/Alonso8729/Sign-up-Form/assets/119747342/c6deff4f-4469-431c-9cab-29e149aa43db)
+![image](https://github.com/Alonso8729/Sign-up-Form/assets/119747342/5b32e7d0-e8ce-49ce-95f6-88da86c94318)
